@@ -1,0 +1,353 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,body{
+height: 100%;
+	text-align: center;
+	color: white;
+}
+.hidden{
+	display: none;
+}
+.carousel-indicators li { visibility: hidden; }
+
+.data{
+	text-align: left;
+
+}
+h1{
+	font-family: 'Arvo', serif;
+}
+h3{
+	font-family: 'Righteous', cursive;
+	}
+#techDiv{
+	padding-top: 10%;
+}
+#content1{
+background-color: #13173c;
+
+}
+#content2{
+	background-color: #e04553;
+}
+#content3{
+	background-color: #13173c;
+}
+#content4{
+	background-color: #e04553;
+}
+#content5{
+	background-color: #13173c;
+}
+#content6{
+	background-color: #e04553;
+}
+
+.content{
+    height: 100%;
+    margin-top: 0px;
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#logo{
+	max-width: 100%;
+	max-height: 100%;
+}
+.mockups{
+	width: 100%;
+	height: 100%;
+}
+
+#techInfo, #meInfo,#featuresImg,#logoInfo{
+	height:100% ;
+	width:100% ;
+}
+@media screen and (min-width:10em) and (max-width:20em) {
+
+#content1{
+	padding-top: 80%;
+
+
+}
+
+h1{
+	
+	font-size:2em;
+}
+h3{
+	
+	 line-height: 150%;
+	  font-size:0.9em;
+}
+
+.data{
+	padding-top: 1%;
+	padding-bottom: 10%;
+}
+.Img{
+	padding-top: 5%;
+
+}
+#techInfo{
+	margin-top: 11%;
+}
+
+
+#carouselSec{
+padding-left: 3%;
+padding-top: 15%;
+}
+
+}
+
+@media screen and (min-width:20em) and (max-width:30em) {
+
+#content1{
+	padding-top:60%;
+
+}
+
+h1{
+	
+	font-size:2em;
+}
+h3{
+	
+	 line-height: 150%;
+	  font-size:0.9em;
+}
+
+.data{
+	padding-top: 1%;
+	padding-bottom: 10%;
+}
+.Img{
+	padding-top: 5%;
+
+}
+#techInfo{
+	margin-top: 11%;
+}
+
+
+#carouselSec{
+padding-left: 10%;
+padding-top: 20%;
+}
+
+}
+@media screen and (min-width:30em) and (max-width:38em) {
+
+#content1{
+	padding-top:40%;
+
+}
+
+h1{
+	
+	font-size:2em;
+}
+h3{
+	
+	 line-height: 150%;
+	  font-size:1.2em;
+}
+
+.data{
+	padding-top: 1%;
+	padding-bottom: 10%;
+}
+.Img{
+	padding-top: 5%;
+
+}
+#techInfo{
+	margin-top: 11%;
+}
+#techInfo,#featuresImg,#logoInfo{
+	height:70% ;
+	width:70% ;
+}
+#carouselSec{
+	padding-top: 0%;
+	padding-left: 5%;
+
+
+}
+#meInfo{
+	max-width:60%; 
+	max-height:60%;
+}
+
+
+}
+@media screen and (min-width:38em) and (max-width:47.5em){
+
+#content1{
+	padding-top:10%;
+
+}
+#meInfo{
+	max-width:60%; 
+	max-height:60%;
+}
+
+#techInfo,#featuresImg,#logoInfo{
+	height:50% ;
+	width:50% ;
+}
+
+h1{
+	
+	font-size:2em;
+}
+h3{
+	
+	 line-height: 150%;
+	  font-size:1.2em;
+}
+
+.data{
+	padding-top: 1%;
+	padding-bottom: 10%;
+}
+
+#techInfo{
+	margin-top: 11%;
+}
+
+#carouselSec{
+padding-left: 5%;
+padding-top: 0%;
+}
+
+
+}
+@media screen and (min-width:47.5em) and (max-width:54em) {
+#meInfo{
+	max-width:40%; 
+	max-height:40%;
+}
+#content1{
+	padding-top:15%;
+
+}
+#techInfo,#featuresImg,#logoInfo{
+	height:100% ;
+	width:100% ;
+}
+h1{
+	
+	font-size:2.5em;
+}
+h3{
+	
+	 line-height: 150%;
+	  font-size:1.2em;
+}
+
+.data, .Img{
+	padding-top: 10%;
+
+}
+
+#techInfo{
+	margin-top: 11%;
+}
+#carouselSec{
+padding-left: 3%;
+
+}
+#mockups{
+	width: 10px;
+	height: 10px;
+}
+
+
+}
+@media screen and (min-width:54em) and (max-width:60em){
+#content1{
+	padding-top:10%;
+
+}
+
+#techInfo,#featuresImg,#logoInfo{
+	height:100% ;
+	width:100% ;
+}
+h1{
+	
+	font-size:2.5em;
+}
+h3{
+	
+	 line-height: 150%;
+	  font-size:1.5em;
+}
+
+.data{
+	padding-top: 10%;
+
+}
+.Img{
+	padding-top: 7%;
+}
+
+#techInfo{
+	margin-top: 18%;
+}
+
+#carouselSec{
+padding-left: 8%;
+
+}
+.mockups{
+	width: 95%;
+	height: 95%;
+}
+
+}
+@media screen and (min-width:60em){
+#content1{
+	padding-top:15%;
+
+}
+#techInfo, #meInfo,#featuresImg,#logoInfo{
+	height:100% ;
+	width:100% ;
+}
+h1{
+	
+	font-size:2.5em;
+}
+h3{
+	
+	 line-height: 150%;
+	  font-size:1.5em;
+}
+
+.data{
+	padding-top: 10%;
+
+}
+.Img{
+	padding-top: 1%;
+}
+
+#techInfo{
+	margin-top: 18%;
+}
+#carouselSec{
+padding-left: 20%;
+
+}
+.mockups{
+	width: 70%;
+	height: 70%;
+}#meInfo{
+	margin-top: 9%;
+}
+
+}
